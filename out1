@@ -1,0 +1,112 @@
+ Xen 4.7.0
+(XEN) Xen version 4.7.0 (tww@) (gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4) debug=n Thu Nov  3 15:17:23 CST 2016
+(XEN) Latest ChangeSet: 
+(XEN) Bootloader: GRUB 2.02~beta2-9ubuntu1.12
+(XEN) Command line: placeholder no-real-mode edd=off
+(XEN) Video information:
+(XEN)  VGA is text mode 80x25, font 8x16
+(XEN) Disc information:
+(XEN)  Found 0 MBR signatures
+(XEN)  Found 0 EDD information structures
+(XEN) Multiboot-e820 RAM map:
+(XEN)  0000000000000000 - 0000000000058000 (usable)
+(XEN)  0000000000058000 - 0000000000059000 (reserved)
+(XEN)  0000000000059000 - 000000000009f000 (usable)
+(XEN)  000000000009f000 - 00000000000a0000 (reserved)
+(XEN)  0000000000100000 - 00000000cab1a000 (usable)
+(XEN)  00000000cab1a000 - 00000000cab21000 (ACPI NVS)
+(XEN)  00000000cab21000 - 00000000cb382000 (usable)
+(XEN)  00000000cb382000 - 00000000cb5fd000 (reserved)
+(XEN)  00000000cb5fd000 - 00000000db2c6000 (usable)
+(XEN)  00000000db2c6000 - 00000000db34e000 (reserved)
+(XEN)  00000000db34e000 - 00000000db4ab000 (usable)
+(XEN)  00000000db4ab000 - 00000000db9db000 (ACPI NVS)
+(XEN)  00000000db9db000 - 00000000dbf7c000 (reserved)
+(XEN)  00000000dbf7c000 - 00000000dbfff000 type 20
+(XEN)  00000000dbfff000 - 00000000dc000000 (usable)
+(XEN)  00000000dd000000 - 00000000df200000 (reserved)
+(XEN)  00000000f8000000 - 00000000fc000000 (reserved)
+(XEN)  00000000fec00000 - 00000000fec01000 (reserved)
+(XEN)  00000000fed00000 - 00000000fed04000 (reserved)
+(XEN)  00000000fed1c000 - 00000000fed20000 (reserved)
+(XEN)  00000000fee00000 - 00000000fee01000 (reserved)
+(XEN)  00000000ff000000 - 0000000100000000 (reserved)
+(XEN)  0000000100000000 - 000000021fe00000 (usable)
+(XEN) ACPI: RSDP 000F0000, 0024 (r2 ALASKA)
+(XEN) ACPI: XSDT DB9B1090, 009C (r1 ALASKA    A M I  1072009 AMI     10013)
+(XEN) ACPI: FACP DB9BECF0, 010C (r5 ALASKA    A M I  1072009 AMI     10013)
+(XEN) ACPI: DSDT DB9B11C0, DB2A (r2 ALASKA    A M I       24 INTL 20120711)
+(XEN) ACPI: FACS DB9D9080, 0040
+(XEN) ACPI: APIC DB9BEE00, 0072 (r3 ALASKA    A M I  1072009 AMI     10013)
+(XEN) ACPI: FPDT DB9BEE78, 0044 (r1 ALASKA    A M I  1072009 AMI     10013)
+(XEN) ACPI: ASF! DB9BEEC0, 00A5 (r32 INTEL       HCG        1 TFSM    F4240)
+(XEN) ACPI: SSDT DB9BEF68, 0200 (r1  INTEL sensrhub        0 INTL 20120711)
+(XEN) ACPI: SSDT DB9BF168, 01BE (r1  Intel zpoddult     1000 INTL 20091112)
+(XEN) ACPI: SSDT DB9BF328, 0539 (r1  PmRef  Cpu0Ist     3000 INTL 20051117)
+(XEN) ACPI: SSDT DB9BF868, 0AD8 (r1  PmRef    CpuPm     3000 INTL 20051117)
+(XEN) ACPI: MCFG DB9C0340, 003C (r1 ALASKA    A M I  1072009 MSFT       97)
+(XEN) ACPI: HPET DB9C0380, 0038 (r1 ALASKA    A M I  1072009 AMI.        5)
+(XEN) ACPI: SSDT DB9C03B8, 0315 (r1 SataRe SataTabl     1000 INTL 20091112)
+(XEN) ACPI: SSDT DB9C06D0, 329E (r1 SaSsdt  SaSsdt      3000 INTL 20091112)
+(XEN) ACPI: BGRT DB9C3970, 0038 (r0 ALASKA    A M I  1072009 AMI     10013)
+(XEN) ACPI: DMAR DB9C39A8, 0088 (r1 INTEL      HSW         1 INTL        1)
+(XEN) ACPI: CSRT DB9C3A30, 00C4 (r1   INTL HSWULT-R        1 INTL 20100528)
+(XEN) System RAM: 8111MB (8305920kB)
+(XEN) Domain heap initialised
+(XEN) ACPI: 32/64X FACS address mismatch in FADT - db9d9080/0000000000000000, using 32
+(XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-39
+(XEN) Enabling APIC mode:  Flat.  Using 1 I/O APICs
+(XEN) Failed to parse ACPI DMAR.  Disabling VT-d.
+(XEN) xstate_init: using cntxt_size: 0x340 and states: 0x7
+(XEN) Using scheduler: SMP Credit Scheduler (credit)
+(XEN) Detected 2394.524 MHz processor.
+(XEN) Initing memory sharing.
+(XEN) I/O virtualisation disabled
+(XEN) Enabled directed EOI with ioapic_ack_old on!
+(XEN) ENABLING IO-APIC IRQs
+(XEN)  -> Using old ACK method
+(XEN) Platform timer is 14.318MHz HPET
+(XEN) Allocated console ring of 16 KiB.
+(XEN) mwait-idle: max C-state count of 8 reached
+(XEN) VMX: Supported advanced features:
+(XEN)  - APIC MMIO access virtualisation
+(XEN)  - APIC TPR shadow
+(XEN)  - Extended Page Tables (EPT)
+(XEN)  - Virtual-Processor Identifiers (VPID)
+(XEN)  - Virtual NMI
+(XEN)  - MSR direct-access bitmap
+(XEN)  - Unrestricted Guest
+(XEN)  - VM Functions
+(XEN) HVM: ASIDs enabled.
+(XEN) HVM: VMX enabled
+(XEN) HVM: Hardware Assisted Paging (HAP) detected
+(XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+(XEN) mwait-idle: max C-state count of 8 reached
+(XEN) mwait-idle: max C-state count of 8 reached
+(XEN) mwait-idle: max C-state count of 8 reached
+(XEN) Brought up 4 CPUs
+(XEN) Dom0 has maximum 616 PIRQs
+(XEN) *** LOADING DOMAIN 0 ***
+(XEN)  Xen  kernel: 64-bit, lsb, compat32
+(XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x2030000
+(XEN) PHYSICAL MEMORY ARRANGEMENT:
+(XEN)  Dom0 alloc.:   0000000208000000->000000020c000000 (1959325 pages to be allocated)
+(XEN)  Init. ramdisk: 00000002153d6000->000000021fdff5c5
+(XEN) VIRTUAL MEMORY ARRANGEMENT:
+(XEN)  Loaded kernel: ffffffff81000000->ffffffff82030000
+(XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+(XEN)  Phys-Mach map: 0000008000000000->0000008000f67e38
+(XEN)  Start info:    ffffffff82030000->ffffffff820304b4
+(XEN)  Page tables:   ffffffff82031000->ffffffff82046000
+(XEN)  Boot stack:    ffffffff82046000->ffffffff82047000
+(XEN)  TOTAL:         ffffffff80000000->ffffffff82400000
+(XEN)  ENTRY ADDRESS: ffffffff81d5a180
+(XEN) Dom0 has maximum 4 VCPUs
+(XEN) Scrubbing Free RAM on 1 nodes using 2 CPUs
+(XEN) ..................................done.
+(XEN) Initial low memory virq threshold set at 0x4000 pages.
+(XEN) Std. Loglevel: Errors and warnings
+(XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+(XEN) Xen is relinquishing VGA console.
+(XEN) *** Serial input -> DOM0 (type 'CTRL-a' three times to switch input to Xen)
+(XEN) Freed 308kB init memory.
